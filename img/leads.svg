@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#000000"
+   width="800"
+   height="800"
+   viewBox="0 0 36 36"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs5" />
+  <title
+     id="title1">users-solid</title>
+  <path
+     class="clr-i-solid clr-i-solid-path-1"
+     d="m 10.02715,14.74953 q -0.5712696,0 -1.1558248,0 A 11.518394,12.014428 0 0 0 0.32884828,18.241613 L 0.01,18.629622 v 11.473987 h 5.4204208 v -6.513012 l 0.730694,-0.859163 0.3321336,-0.401867 A 14.61388,15.243219 0 0 1 12.750646,18.36633 8.7550425,9.1320739 0 0 1 10.02715,14.74953 Z"
+     id="path1"
+     style="fill:#2b2c4d;fill-opacity:1;stroke-width:1.35684" />
+  <path
+     class="clr-i-solid clr-i-solid-path-2"
+     d="m 35.721008,18.200041 a 11.518394,12.014428 0 0 0 -8.542477,-3.492083 13.909756,14.508773 0 0 0 -1.448103,0.08315 8.7550425,9.1320739 0 0 1 -2.657069,3.39508 14.494312,15.118502 0 0 1 6.642673,4.157242 l 0.332133,0.388009 0.717409,0.859163 v 6.526869 H 36 V 18.58805 Z"
+     id="path2"
+     style="fill:#2b2c4d;fill-opacity:1;stroke-width:1.35684" />
+  <path
+     class="clr-i-solid clr-i-solid-path-3"
+     d="m 8.8314692,12.047323 c 0.1461388,0 0.2657069,0 0.4118457,0 A 8.5690476,8.9380693 0 0 1 13.375057,3.3309736 5.4337062,5.6677059 0 1 0 8.8314692,12.102753 Z"
+     id="path3"
+     style="fill:#2b2c4d;fill-opacity:1;stroke-width:1.35684" />
+  <path
+     class="clr-i-solid clr-i-solid-path-4"
+     d="m 26.540834,11.008013 a 8.6886157,9.0627865 0 0 1 0,0.956165 5.4337062,5.6677059 0 0 0 0.77055,0.06929 h 0.252422 a 5.4337062,5.6677059 0 1 0 -4.955434,-8.5639177 8.6753304,9.048929 0 0 1 3.932462,7.5384647 z"
+     id="path4"
+     style="fill:#2b2c4d;fill-opacity:1;stroke-width:1.35684" />
+  <ellipse
+     class="clr-i-solid clr-i-solid-path-5"
+     cx="17.825649"
+     cy="11.021871"
+     id="circle4"
+     rx="5.938549"
+     ry="6.1942897"
+     style="fill:#2b2c4d;fill-opacity:1;stroke-width:1.35684" />
+  <path
+     class="clr-i-solid clr-i-solid-path-6"
+     d="m 18.144496,20.514238 a 12.873499,13.42789 0 0 0 -9.4458803,3.741518 l -0.3321336,0.388009 v 8.77178 a 2.0857992,2.1756231 0 0 0 2.1256549,2.13405 h 15.264862 a 2.0857992,2.1756231 0 0 0 2.125655,-2.13405 V 24.67148 l -0.318848,-0.415724 a 12.727361,13.275458 0 0 0 -9.41931,-3.741518 z"
+     id="path5"
+     style="fill:#2b2c4d;fill-opacity:1;stroke-width:1.35684" />
+  <rect
+     x="0"
+     y="0"
+     width="36"
+     height="36"
+     fill-opacity="0"
+     id="rect5" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>users-solid</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
