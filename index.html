@@ -7,19 +7,51 @@
   <title>Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header></header>
+  <header class="navbar">
+    <div class="nome head-icon">Carroças de Ferro</div>
+    <div class="perfil head-icon"><a href="#"><img src="img/user.svg" alt="Ícone de perfil" /></a></div>
+    <nav class="menu">
+      <ul class="menu__items">
+        <li><a href="#" class="menu__item selected">Início</a></li>
+        <li><a href="#" class="menu__item">Vendas</a></li>
+        <li><a href="#" class="menu__item">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <main>
+  <main class="dashboard">
+    <aside class="sidebar">
+      <div class="botoes-esquerda">
+        <button class="botao">
+          <i class="fa-solid fa-envelope"></i>
+        </button>
+
+        <button class="botao">
+          <i class="fa-regular fa-bell"></i>
+        </button>
+      </div>
+
+      <div class="botao-direita">
+        <button class="botao">
+          <i class="fa-solid fa-gear"></i>
+        </button>
+      </div>
+    </aside>
+
     <section class="cards">
       <article class="card leads">
         <div class="card__icon__container">
-          <img src="assets/leads.svg" alt="Ícone dos leads do mês" class="card__icon">
+          <img src="img/leads.svg" alt="Ícone dos leads do mês" class="card__icon">
         </div>
         <div class="card__content">
           <h2>Leads do mês</h2>
@@ -27,8 +59,8 @@
             <svg class="arrow" viewBox="0 0 12 25">
               <defs id="defs1" />
               <g id="SVGRepo_iconCarrier">
-              <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" id="path1" />
+                <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" id="path1" />
               </g>
             </svg>
             <p>2.842</p>
@@ -39,7 +71,7 @@
 
       <article class="card conversao">
         <div class="card__icon__container">
-          <img src="assets/conversao.svg" alt="Ícone da taxa de conversão" class="card__icon">
+          <img src="img/conversao.svg" alt="Ícone da taxa de conversão" class="card__icon">
         </div>
         <div class="card__content">
           <h2>Taxa de conversão geral</h2>
@@ -47,8 +79,8 @@
             <svg class="arrow down" viewBox="0 0 12 25">
               <defs id="defs1" />
               <g id="SVGRepo_iconCarrier">
-              <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" id="path1" />
+                <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" id="path1" />
               </g>
             </svg>
             <p>18,6%</p>
@@ -59,7 +91,7 @@
 
       <article class="card vendas">
         <div class="card__icon__container">
-          <img src="assets/vendas.svg" alt="Ícone de vendas" class="card__icon">
+          <img src="img/vendas.svg" alt="Ícone de vendas" class="card__icon">
         </div>
         <div class="card__content">
           <h2>Vendas realizadas</h2>
@@ -67,8 +99,8 @@
             <svg class="arrow" viewBox="0 0 12 25">
               <defs id="defs1" />
               <g id="SVGRepo_iconCarrier">
-              <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" id="path1" />
+                <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" id="path1" />
               </g>
             </svg>
             <p>528</p>
@@ -79,7 +111,7 @@
 
       <article class="card tempo">
         <div class="card__icon__container">
-          <img src="assets/tempo.svg" alt="Ícone do tempo médio de primeiro contato" class="card__icon">
+          <img src="img/tempo.svg" alt="Ícone do tempo médio de primeiro contato" class="card__icon">
         </div>
         <div class="card__content">
           <h2>Tempo médio de primeiro contato</h2>
@@ -87,8 +119,8 @@
             <svg class="arrow down" viewBox="0 0 12 25">
               <defs id="defs1" />
               <g id="SVGRepo_iconCarrier">
-              <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" id="path1" />
+                <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" id="path1" />
               </g>
             </svg>
             <p>03h42min</p>
@@ -99,7 +131,7 @@
 
       <article class="card funil">
         <div class="card__icon__container">
-          <img src="assets/funil.svg" alt="Ícone da conversão por etapa do funil" class="card__icon">
+          <img src="img/funil.svg" alt="Ícone da conversão por etapa do funil" class="card__icon">
         </div>
         <div class="card__content">
           <h2>Conversão por etapa do funil</h2>
@@ -107,8 +139,8 @@
             <svg class="arrow" viewBox="0 0 12 25">
               <defs id="defs1" />
               <g id="SVGRepo_iconCarrier">
-              <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" id="path1" />
+                <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" id="path1" />
               </g>
             </svg>
             <p>48%</p>
@@ -119,7 +151,7 @@
 
       <article class="card test-drive">
         <div class="card__icon__container">
-          <img src="assets/test-drive.svg" alt="Ícone do comparecimento ao test drive" class="card__icon">
+          <img src="img/test-drive.svg" alt="Ícone do comparecimento ao test drive" class="card__icon">
         </div>
         <div class="card__content">
           <h2>Comparecimento ao test drive</h2>
@@ -127,8 +159,8 @@
             <svg class="arrow" viewBox="0 0 12 25">
               <defs id="defs1" />
               <g id="SVGRepo_iconCarrier">
-              <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" id="path1" />
+                <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" id="path1" />
               </g>
             </svg>
             <p>67%</p>
@@ -139,7 +171,7 @@
 
       <article class="card ticket">
         <div class="card__icon__container">
-          <img src="assets/ticket.svg" alt="Ícone do ticket médio e margem" class="card__icon">
+          <img src="img/ticket.svg" alt="Ícone do ticket médio e margem" class="card__icon">
         </div>
         <div class="card__content">
           <h2>Ticket médio e margem</h2>
@@ -147,8 +179,8 @@
             <svg class="arrow down" viewBox="0 0 12 25">
               <defs id="defs1" />
               <g id="SVGRepo_iconCarrier">
-              <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" id="path1" />
+                <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" id="path1" />
               </g>
             </svg>
             <p>R$ 94.500</p>
@@ -159,7 +191,7 @@
 
       <article class="card leads-s-acao">
         <div class="card__icon__container">
-          <img src="assets/leads-s-acao.svg" alt="Ícone dos leads sem ação em 24 horas" class="card__icon">
+          <img src="img/leads-s-acao.svg" alt="Ícone dos leads sem ação em 24 horas" class="card__icon">
         </div>
         <div class="card__content">
           <h2>Leads sem ação em 24h</h2>
@@ -167,8 +199,8 @@
             <svg class="arrow down" viewBox="0 0 12 25">
               <defs id="defs1" />
               <g id="SVGRepo_iconCarrier">
-              <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" id="path1" />
+                <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" id="path1" />
               </g>
             </svg>
             <p>12%</p>
@@ -179,7 +211,7 @@
 
       <article class="card cac">
         <div class="card__icon__container">
-          <img src="assets/cac.svg" alt="Ícone do custo de aquisição de clientes por canal e vendedor" class="card__icon">
+          <img src="img/cac.svg" alt="Ícone do custo de aquisição de clientes por canal e vendedor" class="card__icon">
         </div>
         <div class="card__content">
           <h2>CAC por canal e vendedor</h2>
@@ -187,8 +219,8 @@
             <svg class="arrow down" viewBox="0 0 12 25">
               <defs id="defs1" />
               <g id="SVGRepo_iconCarrier">
-              <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" id="path1" />
+                <path d="M 6,6 V 18 M 6,6 1,11 m 5,-5 5,5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" id="path1" />
               </g>
             </svg>
             <p>R$ 820</p>
@@ -197,9 +229,9 @@
         </div>
       </article>
     </section>
-  </main>
 
-  <footer></footer>
+    <footer class="footer">Site oficial Carroça de Ferro - setembro de 2026</footer>
+  </main>
 </body>
 
 </html>

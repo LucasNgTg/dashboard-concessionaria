@@ -1,8 +1,8 @@
 * { box-sizing: border-box; }
 :root{
     --cor-primaria: #1D1D31;
-    --cor-secundaria: ;
     --cor-contorno: #43458E;
+    --cor-secundaria: ;
 }
 
 html,body{
@@ -18,7 +18,7 @@ html,body{
     position: relative;
     align-items:center;
     width:100%;
-    padding: 6px;
+    padding: 0.5rem;
     padding-bottom: 0.1px;
     background: var(--cor-primaria);
     border-bottom: 1px solid var(--cor-contorno);
@@ -28,7 +28,7 @@ html,body{
 .nome{
     font-size: 1.5rem;
     color: #ffff;
-    margin-left:2%;
+    /* margin-left:2%; */
     font-family: "Sansita", sans-serif;
     font-weight:700;
 }
@@ -39,7 +39,7 @@ html,body{
     justify-content:center;
     background-color: #ffff;
     border-radius:50%;
-    overflow:hidden;
+    /* overflow:hidden; */
     margin-right:5%;
     width: 40px; 
     height:40px;
