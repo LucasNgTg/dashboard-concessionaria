@@ -6,6 +6,13 @@
 }
 
 :root {
+  --clr-primary: #1d1d31;
+  --clr-bg-dark: #1b1a30;
+  --clr-bg-light: #2c2c35;
+  --clr-content: #2b2c4d;
+  --clr-highlight: #43458e;
+  --clr-muted: #8284b5;
+  --clr-text: #fff;
   --clr-leads: #2ac297;
   --clr-tempo: #3895ff;
   --clr-ticket: #b63ff8;
@@ -15,13 +22,6 @@
   --clr-vendas: #d977c4;
   --clr-test-drive: #19e546;
   --clr-funil: #cc8552;
-  --clr-content: #2b2c4d;
-  --clr-highlight: #43458e;
-  --clr-muted: #8284b5;
-  --clr-text: #fff;
-  --clr-bg-dark: #1b1a30;
-  --clr-bg-light: #2c2c35;
-  --clr-primary: #1d1d31;
 }
 
 body {
