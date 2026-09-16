@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+  <title>Carroças de Ferro | Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -18,8 +18,8 @@
 
 <body>
   <header class="navbar">
-    <div class="nome head-icon">Carroças de Ferro</div>
-    <div class="perfil head-icon"><a href="#"><img src="img/user.svg" alt="Ícone de perfil" /></a></div>
+    <h1 class="nome head-icon">Carroças de Ferro</h1>
+      <a href="#" class="perfil head-icon"><img src="img/user.svg" alt="Ícone de perfil" /></a>
     <nav class="menu">
       <ul class="menu__items">
         <li><a href="#" class="menu__item selected">Início</a></li>
@@ -32,17 +32,25 @@
   <main class="dashboard">
     <aside class="sidebar">
       <div class="botoes-esquerda">
-        <button class="botao">
+        <button class="botao" title="E-mails">
           <i class="fa-solid fa-envelope"></i>
         </button>
 
-        <button class="botao">
+        <button class="botao" title="Notificações">
           <i class="fa-regular fa-bell"></i>
+        </button>
+
+        <button class="botao" title="Agendamentos">
+          <i class="fa-regular fa-calendar"></i>
+        </button>
+
+        <button class="botao" title="Contratos">
+          <i class="fa-solid fa-file-contract"></i>
         </button>
       </div>
 
       <div class="botao-direita">
-        <button class="botao">
+        <button class="botao" title="Configurações">
           <i class="fa-solid fa-gear"></i>
         </button>
       </div>
@@ -229,7 +237,9 @@
         </div>
       </article>
     </section>
-    <div class="rolagem-tabela">
+
+    <section class="rolagem-tabela">
+      <p class="instruct-tabela"><i class="fa-solid fa-angles-right"></i> Deslize para rolar</p>
       <table class="tabela">
         <caption>Dados das vendas</caption>
         <thead>
@@ -247,23 +257,23 @@
             <td>Ford</td>
             <td>20</td>
           </tr>
-         <tr>
+          <tr>
             <td>20</td>
             <td>40 000</td>
             <td>Volkswagen</td>
             <td>10</td>
-         </tr>
+          </tr>
           <tr>
             <td>50</td>
-           <td>25 000</td>
+            <td>25 000</td>
             <td>Fiat</td>
             <td>30</td>
           </tr>
         </tbody>
       </table>
-    </div>
+    </section>
+    <footer class="footer">Dashboard oficial Carroça de Ferro - setembro de 2026</footer>
   </main>
-  <footer class="footer">Site oficial Carroça de Ferro - setembro de 2026</footer>
 </body>
 
 </html>
